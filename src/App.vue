@@ -1,15 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <NavbarComponent/>
+  <BackgroundComponent />
+  <br>
+  <AboutMeComponent />
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavbarComponent from './components/NavbarComponent.vue'
+import BackgroundComponent from './components/BackgroundComponent.vue'
+import AboutMeComponent from "./components/AboutMeComponent.vue";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    NavbarComponent,
+    BackgroundComponent,
+    AboutMeComponent,
   }
 }
 </script>

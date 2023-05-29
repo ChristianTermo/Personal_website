@@ -1,0 +1,177 @@
+.background {
+    background-image: url(../assets/background.JPG);
+    height: 43vw;
+    width: 98,7vw;
+    position: relative;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .vue {
+    position: absolute;
+    height: 3vw;
+    width: 3,5vw;
+    bottom: 10vw;
+  right: 6vw;
+  }
+  
+  .spring {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    bottom: 10vw;
+    right: 16vw;
+  }
+
+  .laravel {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    bottom: 10vw;
+    right: 11vw;
+  }
+
+  .javascript {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    bottom: 10vw;
+    right: 21vw;
+  }
+
+  .bootstrap {
+    position: absolute;
+    height: 3vw;
+    width: 4vw;
+    bottom: 10vw;
+    right: 26vw;
+  }
+
+  .mysql {
+    position: absolute;
+    height: 4vw;
+    width: 4vw;
+    bottom: 10vw;
+    right: 31vw;
+  }
+
+  .git {
+    position: absolute;
+    height: 3vw;
+    width: 3vw;
+    bottom: 10vw;
+    right: 36vw;
+  }
+
+  .iconbutton {
+    cursor: pointer;
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+  
+  .icondivbutton {
+    text-align: left;
+    padding-left: 5px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .sidebar {
+    width: 350px;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    overflow: hidden;
+  }
+  
+  .sidebar-item {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+   
+  }
+  
+  .sidebar-item:hover {
+    background-color: rgb(212, 212, 212);
+  }
+  
+  .iconitemelement {
+    height: 20px;
+    width: 110%;
+    padding-right: 7px;
+  }
+  
+  .container {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  
+  body {
+    background-color: white;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 4vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(360deg);
+}
+
+.arrow span {
+    display: block;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+   
+    animation: animate 2s infinite;
+}
+
+.arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+  
+  
+  .overlay {
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+  }
+  
+  .closebutton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }

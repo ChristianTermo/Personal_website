@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.black {
+  background-color: black;
+}
+.paragraph {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 50%;
+}
+
+.centre {
+  text-align: center;
+}
+
+.img {
+  height: 30%;
+  width: 30%;
+  margin: auto;
+  display: inline-flex;
+  padding-top: 2vw;
+  justify-content: center;
+}
+
+.img2 {
+  height: 83%;
+  width: 83%;
+  margin: auto;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.img3 {
+  height: 25%;
+  width: 25%;
+  margin: auto;
+  display: inline-flex;
+  padding-top: 2vw;
+  justify-content: center;
+}
+
+.separatore {
+  padding-left: 10%;
+  width: 30vw;
+}
