@@ -51,10 +51,41 @@
         <h4><b>Tecnologie</b></h4>
       </center>
       <br />
-      <div>
-        <div class="row row-cols-1 row-cols-md-4 g-0">
+      <div class="card-group">
+        <div class="card">
+          <img src="../assets/icons-develop.png" class="img" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Stack Moderno</h5>
+            <p class="card-text">
+              Il Framework Laravel e le più moderne tecnologie orientate al web
+              sono coinvolte nel processo di sviluppo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/icons-agile.png" class="img3" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Metodologia Agile</h5>
+            <p class="card-text">
+              La Metodologia Agile coinvolge il cliente e rende il processo di
+              sviluppo iterativo ed interattivo.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/icons-assistance.png" class="img2" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Assistenza Tecnica</h5>
+            <p class="card-text">
+              Supporto post-vendita e formazione sull'utilizzo della
+              piattaforma.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="">
           <div class="separatore">
-            <div class="col">
+            <div class="">
               <div class="card h-100">
                 <div class="img">
                   <img src="../assets/icons-develop.png" alt="" />
@@ -72,7 +103,6 @@
                 </div>
               </div>
             </div>
-          </div>
           <div class="separatore">
             <div class="col">
               <div class="card h-100">
@@ -120,7 +150,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
       <!-- Footer -->
       <footer class="text-center text-lg-start bg-white text-muted">
         <!-- Section: Links  -->

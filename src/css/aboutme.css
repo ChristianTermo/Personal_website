@@ -13,7 +13,7 @@
 }
 
 .img {
-  height: 30%;
+  height: 40%;
   width: 30%;
   margin: auto;
   display: inline-flex;
@@ -22,15 +22,16 @@
 }
 
 .img2 {
-  height: 83%;
-  width: 83%;
+  height: 40%;
+  width: 25%;
   margin: auto;
   display: inline-flex;
+  padding-top: 2vw;
   justify-content: center;
 }
 
 .img3 {
-  height: 25%;
+  height: 40%;
   width: 25%;
   margin: auto;
   display: inline-flex;
