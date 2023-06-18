@@ -147,6 +147,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import "../css/background.css";
 </style>

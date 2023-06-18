@@ -1,0 +1,66 @@
+.background {
+width: 100vw;
+}
+.iconbutton {
+    cursor: pointer;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+
+.icondivbutton {
+    text-align: left;
+    padding-left: 1vw;
+    position: fixed;
+    top: 0;
+}
+
+.sidebar {
+    width: 80vw;
+    height: 217vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.sidebar-item {
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+
+}
+
+.sidebar-item:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.iconitemelement {
+    height: 20px;
+    width: 110%;
+    padding-right: 7px;
+}
+
+.container {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+.closebutton {
+    position: relative;
+    bottom: 0vw;
+    left: 30vw;
+}

@@ -24,28 +24,11 @@
 </template>
 
 <script setup>
-/*import {ref} from 'vue'
-
-let details = navigator.userAgent;
-let regexp = /android|iphone|kindle|ipad/i;
-let isMobileDevice = regexp.test(details);
-
-let fontSize = ref(1);
-
-if (isMobileDevice) {
-  fontSize = 1;
-  alert('its pikachu');
-} else {
-  fontSize = 1;
-}*/
 </script>
 
 <style scoped>
 
 @import "../css/navbar.css";
-  .btn-hover {
- /*font-size: v-bind(fontSize);*/
-  }
    
 </style>
 

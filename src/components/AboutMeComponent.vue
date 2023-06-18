@@ -247,6 +247,6 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 @import "../css/aboutme.css";
 </style>
